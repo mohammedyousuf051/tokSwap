@@ -93,6 +93,9 @@ async function getQuote() {
     amount: amount,
   });
   console.log(quote);
+  console.log(quote);
+  console.log(quote);
+  console.log(quote);
   document.getElementById("gas_estimate").innerHTML = quote.estimatedGas;
   document.getElementById("to_amount").value = quote.toTokenAmount / 10 ** quote.toToken.decimals;
 }
